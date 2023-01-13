@@ -1,6 +1,6 @@
 package HomeWork3;
 
-public class OddNumberIncre {
+public class OddNumberIncreforloops {
     public static void main(String[] args) {
 
         //Print odd numbers between 20 and 50 (2 ways)
@@ -8,20 +8,21 @@ public class OddNumberIncre {
         // 1st way
 
         int num=21;
-        while (num<=49){
+        for (num=21;num<=49 ;num+=2) {
+
             System.out.println(num);
-            num+=2;
+
 
         }
         System.out.println("******************************");
 
         // 2nd way
 
-        int num1=21;
-        while (num1<=49){
-            if(num1%2!=0)
+
+        for (int num1=21; num1 <=49 ;num+=2) {
+            if(num1%2 !=0) {
                 System.out.println(num1);
-            num1+=2;
+            }
         }
 
 
@@ -33,3 +34,4 @@ public class OddNumberIncre {
 
     }
 }
+

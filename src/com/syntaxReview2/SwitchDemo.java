@@ -4,7 +4,7 @@ public class SwitchDemo {
     public static void main(String[] args) {
 
         int worldCup=2022;
-        switch (worldCup){
+        switch (worldCup) {
             case 2022:
                 System.out.println("Winner is Argentina");
                 break;
@@ -16,8 +16,8 @@ public class SwitchDemo {
                 break;
             default:
                 System.out.println("Unknown");
-
         }
+
 
 
 
