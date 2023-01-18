@@ -7,18 +7,17 @@ public class Replit1 {
 
         Scanner input = new Scanner(System.in);
 
+        int x = input.nextInt();
+        for (int i = x - 1; i >= 0; i--) {
 
-
-        int x=input.nextInt();
-        System.out.println("In:");
-
-        for(int i=0;i<=x;i++){
-            System.out.println(i);
+            System.out.print(i + " ");
         }
 
 
     }
 }
+
+
 
 
 
