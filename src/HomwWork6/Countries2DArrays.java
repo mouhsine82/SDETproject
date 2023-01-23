@@ -19,17 +19,21 @@ public class Countries2DArrays {
 
         System.out.println("******* First Loop ************");
        int count=0;
-        for (int i = 0; i < countries.length; i++) {
-            for (int j = 0; j < countries[i].length; j++) {
+        for (int i = 0; i < countries.length; i++) {  // countries.length tell us how many single D arrays
+            for (int j = 0; j < countries[i].length; j++) { // countries.length[i] tell us how many index in single D arrays
                 count++;
                 System.out.print(countries[i][j] + "   ");
             }
             System.out.println();
         }
         System.out.println("***** Second Loop ******");
-
-        for (String[] name : countries) {
-            System.out.println(Arrays.toString(name));
+       // using enhanced for loop
+        for (String[] country : countries) {
+            for(String s:country){
+                System.out.print(s+" ");
+                count++;
+            }
+            System.out.println();
 
         }
         System.out.println();
