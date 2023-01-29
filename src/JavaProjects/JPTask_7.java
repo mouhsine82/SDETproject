@@ -9,6 +9,7 @@ public class JPTask_7 {
 
         int num=79;
         boolean prime=true;
+
         for (int i = 2; i <num ; i++) {
             if(num % i==0){
                 prime=false;
@@ -16,6 +17,6 @@ public class JPTask_7 {
             }
             
         }
-        System.out.println(prime);
+        System.out.println("Given number "+num+" is Prime? "+prime);
     }
 }

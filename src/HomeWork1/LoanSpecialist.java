@@ -1,7 +1,5 @@
 package HomeWork1;
 
-import com.syntaxReview.Scanner_Review;
-
 import java.util.Scanner;
 
 public class LoanSpecialist {
