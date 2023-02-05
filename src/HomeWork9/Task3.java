@@ -12,7 +12,7 @@ public class Task3 {
              return false;
          }
     }
-    // Task3 tester
+    // Task_1 tester
     public static void main(String[] args) {
 
         Task3 word=new Task3();

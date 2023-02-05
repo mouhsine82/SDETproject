@@ -3,7 +3,7 @@ package class7;
 public class Task1Hw {
     public static void main(String[] args) {
 
-        // Task1 from HW.
+        // Student from HW.
         boolean workDay = true;
         int day = 1;
         while (workDay) {

@@ -12,7 +12,7 @@ public class Task1 {
         }
     }
 
-    // Task1 tester
+    // Student tester
     public static void main(String[] args) {
 
         Task1 largeNum=new Task1();

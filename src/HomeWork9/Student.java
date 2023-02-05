@@ -1,7 +1,7 @@
 package HomeWork9;
 
 public class Student {
-    //6)Create  class Student that will have a method getGrade. Your method should accept the score of a student and return a grade:
+    //6)Create  class Student1 that will have a method getGrade. Your method should accept the score of a student and return a grade:
     //score > 90 - A
     //score >80 - B
     //score >70 - C
@@ -20,7 +20,7 @@ public class Student {
             return 'F';
         }
     }
-    // StudentTester
+    // Student1Tester
     public static void main(String[] args) {
 
 

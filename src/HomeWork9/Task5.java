@@ -17,7 +17,7 @@ public class Task5 {
 
     }
 
-    // Task5 tester
+    // Student tester
    public static void main(String[] args) {
 
        Task5 prime=new Task5();
