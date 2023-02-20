@@ -2,9 +2,9 @@ package class16;
 
 public class Students {
      /*
-     Create a Class called Students
+     Create a Class called Marks
 Create three  variables  Name , ID  and  numberOfStudents
-Create three objects of the Students Class
+Create three objects of the Marks Class
 Set the value for  studentName , studentID and increment  the numberOfStudents for each object
 Print out  total number of students
      */
